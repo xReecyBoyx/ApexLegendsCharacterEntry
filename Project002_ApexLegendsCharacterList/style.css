@@ -1,0 +1,281 @@
+* {
+    background-color: antiquewhite;
+    font-family: "Agency FB", sans-serif;
+}
+
+i {
+    background-color: inherit;
+}
+
+main {
+    width: 100%;
+}
+
+/* UNIVERSAL */
+.divider {
+    border-top: solid black 1px;
+    margin: 20px 40px;
+}
+/* --- end of universal --- */
+
+
+/* ---- Header Elements ---- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ApexIconImg {
+    height: 90px;
+    width: 100px;
+    margin-right: 40px;
+}
+
+h1 {
+    margin-left: 30px;
+    font-size: 26px;
+    align-content: center;
+}
+
+p {
+    margin-left: 30px;
+    font-size: 14px;
+}
+
+/* ---- END OF HEADER ---- */
+
+
+
+#KPIBar {
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+
+#MainSelection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+}
+
+#AbilitySection {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 110px;
+}
+
+content {
+    margin: auto 40px;
+}
+
+section {
+    border-top: solid 1px rgb(160, 160, 160);
+    margin: auto 50px;
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 50px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 2px;
+    width: 190px;
+    margin: auto 5px;
+}
+
+select {
+    background-color: white;
+    width: 70%;
+}
+
+option {
+    font-size: 12px;
+    background-color: white;   
+}
+
+
+button {
+    background-color: rgb(225, 153, 153);
+    font-size: 10px;
+    font-style: italic;
+    height: 22px;
+    width: 92px;
+    align-items: center;
+    border: solid 1px rgb(103, 103, 103);
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-right: 50px;
+}
+
+button:hover {
+    background-color: rgb(228, 167, 167); /* Darker green when hovered */
+}
+
+button:active{
+    background-color: rgb(223, 179, 179); /* Darker green when hovered */
+}
+
+
+/* SLIDER */
+/* Basic Slider */
+input[type="range"] {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 170px; 
+    height: 5px; 
+    background: #ececec; 
+    border-radius: 5px;
+    outline: none; 
+}
+
+/* Draggable Part */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border: solid black 0.5px;
+    border-radius: 50%;
+    background: #922f2f; /* Green thumb color */
+    cursor: pointer;
+}
+
+
+.sliderandlabel {
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.sliderlabel {
+    font-weight: bold;
+    width: 25px;
+    padding: 2px;
+    margin: auto 10px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 20px;
+    width: 90%;
+}
+
+thead {
+    border-bottom: solid 1px black
+}
+
+th {
+    font-size: 11px;
+}
+
+td {
+    font-size: 11px;
+    height: 15px;
+    border-bottom: solid lightgrey 1px;
+    text-align: center;
+    align-items: center;
+}
+
+#coreHeaderAddSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#tableContainer {
+    margin-top: 10px;
+    align-content: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rowStandard {
+    background-color: antiquewhite;
+}
+
+.rowAlternate {
+    background-color: rgba(247, 247, 247, 0.6);
+}
+
+.binIcon {
+    height: 20px;
+    width: 20px;
+    background-color: inherit;
+}
+
+.KPIBar {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.KPIContainer {
+    background-color: rgb(250, 227, 176);
+    border-radius: 28px;
+    padding: 12px;
+    text-align: center;
+    width: 116px;
+}
+
+.KPIMain {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: inherit;
+    margin-bottom: 3px;
+}
+
+.KPILabel {
+    font-size: 11px;
+    font-weight: bold;
+    background-color: inherit;
+}
+
+.FullWidth {
+    width: 100%;
+}
+
+/* Class Font */
+.AssaultFont {
+    color: rgb(148, 43, 43)
+}
+
+.ControllerFont {
+    color: rgb(62, 79, 162)
+}
+
+.ReconFont {
+    color: rgb(105, 34, 135);
+}
+
+.SkirmisherFont {
+    color: rgb(185, 182, 0);
+}
+
+.SupportFont {
+    color: rgb(7, 137, 44);
+}
+
+
